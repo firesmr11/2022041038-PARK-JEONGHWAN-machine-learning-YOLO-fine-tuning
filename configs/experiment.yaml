@@ -29,6 +29,6 @@ video:
   playback_speed: 2.0
   trim: false
 notes:
-  - This is the intended common configuration, not a claim that every original run had identical args.
+  - Common training parameters are listed above; checkpoint_inventory.json records archived per-run settings.
   - The initial Colab 196-image 50-epoch run used patience 15 and completed all 50 epochs.
-  - Check Roboflow version preprocessing and archived per-run args before claiming strict control.
+  - Roboflow preprocessing may differ between dataset versions.

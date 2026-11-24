@@ -1,4 +1,4 @@
-"""Compare two user-provided YOLOv8 checkpoints on the exact same video frames."""
+"""Compare two trained YOLOv8 checkpoints on the exact same video frames."""
 import argparse
 import csv
 import hashlib
