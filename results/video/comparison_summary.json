@@ -1,0 +1,132 @@
+{
+  "input": "videos/original/desk_objects.mp4",
+  "sha256": "8a4e749c490904c00fc79323f6c3dce1be25cdb1830109747907b412fd3fe490",
+  "fps": 30.0,
+  "width": 1080,
+  "height": 1920,
+  "metadata_frame_count": 403,
+  "duration_seconds": 13.433333333333334,
+  "inference_environment": {
+    "device": "cpu",
+    "torch": "2.14.1+cpu",
+    "ultralytics": "8.4.216",
+    "opencv": "5.1.0",
+    "imgsz": 640,
+    "conf": 0.25,
+    "iou": 0.7,
+    "tracker": "bytetrack.yaml",
+    "frame_stride": 1,
+    "precision": "FP32",
+    "note": "Training environment labels do not describe the inference device; both models run here on CPU."
+  },
+  "models": [
+    {
+      "key": "local_196_75",
+      "label": "LOCAL / 196 images / 75 epochs",
+      "checkpoint": "models/local_196_75_best.pt",
+      "checkpoint_sha256": "3e3e93e21dd466b8507d98c6d030f8d7f73b30ab7c9a6d465339104399573799",
+      "checkpoint_training_epochs": 75,
+      "checkpoint_training_data": "dataset_v1",
+      "classes": {
+        "0": "cup",
+        "1": "mouse",
+        "2": "remote"
+      },
+      "frames_processed": 403,
+      "duration_seconds": 13.433333333333334,
+      "frames_without_any_detection": 0,
+      "frames_with_class": {
+        "remote": 403,
+        "mouse": 376,
+        "cup": 388
+      },
+      "box_observations": {
+        "cup": 407,
+        "remote": 403,
+        "mouse": 376
+      },
+      "unique_track_ids_by_class": {
+        "cup": [
+          1,
+          3,
+          6,
+          12
+        ],
+        "remote": [
+          2
+        ],
+        "mouse": [
+          3,
+          4,
+          6,
+          12
+        ]
+      },
+      "processing_wall_seconds": 24.24007619999975,
+      "tracking_calls_seconds_including_first_call": 17.10542500000247,
+      "note": "Coverage/confidence/ID counts are descriptive only, not precision, recall, mAP or ID-switch accuracy without ground truth."
+    },
+    {
+      "key": "colab_414_50",
+      "label": "COLAB / 414 images / 50 epochs",
+      "checkpoint": "models/colab_414_50_best.pt",
+      "checkpoint_sha256": "7f040088b76e9bb69c3df2cfe18d18c3fbf5d4e7150812d1a7eb2419a4dc27ba",
+      "checkpoint_training_epochs": 50,
+      "checkpoint_training_data": "dataset_v2",
+      "classes": {
+        "0": "cup",
+        "1": "mouse",
+        "2": "remote"
+      },
+      "frames_processed": 403,
+      "duration_seconds": 13.433333333333334,
+      "frames_without_any_detection": 0,
+      "frames_with_class": {
+        "remote": 403,
+        "mouse": 383,
+        "cup": 388
+      },
+      "box_observations": {
+        "cup": 411,
+        "remote": 408,
+        "mouse": 395
+      },
+      "unique_track_ids_by_class": {
+        "cup": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          9,
+          13,
+          15
+        ],
+        "remote": [
+          2,
+          13
+        ],
+        "mouse": [
+          3,
+          9,
+          13,
+          25
+        ]
+      },
+      "processing_wall_seconds": 22.4111283000002,
+      "tracking_calls_seconds_including_first_call": 15.184421799996926,
+      "note": "Coverage/confidence/ID counts are descriptive only, not precision, recall, mAP or ID-switch accuracy without ground truth."
+    }
+  ],
+  "comparison_frames": 403,
+  "comparison_duration_seconds": 13.433333333333334,
+  "ground_truth_available": false,
+  "playback": {
+    "speed": 2.0,
+    "trimmed": false,
+    "output_fps": 60.0,
+    "duration_seconds": 6.716666666666667,
+    "audio": false,
+    "note": "Tracking ran on every original frame before playback acceleration."
+  }
+}

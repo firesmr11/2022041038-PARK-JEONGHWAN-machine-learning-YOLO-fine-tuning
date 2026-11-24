@@ -1,0 +1,729 @@
+{
+  "local_196_75": {
+    "cup": {
+      "absent_frame_count": 15,
+      "multiple_frame_count": 19,
+      "absent_frames": [
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "multiple_frames": [
+        105,
+        106,
+        107,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242
+      ]
+    },
+    "mouse": {
+      "absent_frame_count": 27,
+      "multiple_frame_count": 0,
+      "absent_frames": [
+        105,
+        108,
+        212,
+        217,
+        218,
+        219,
+        227,
+        228,
+        229,
+        230,
+        231,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335
+      ],
+      "multiple_frames": []
+    },
+    "remote": {
+      "absent_frame_count": 0,
+      "multiple_frame_count": 0,
+      "absent_frames": [],
+      "multiple_frames": []
+    },
+    "samples": {
+      "0": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.956636"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.952778"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.937692"
+        }
+      ],
+      "1.0": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.939483"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.961349"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.918153"
+        }
+      ],
+      "2.0": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.906909"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.945495"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.879529"
+        }
+      ],
+      "2.7": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.927166"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.951966"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.916064"
+        }
+      ],
+      "3.5": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.89302"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.934771"
+        },
+        {
+          "class": "cup",
+          "track_id": "3",
+          "confidence": "0.861165"
+        }
+      ],
+      "4.5": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.93342"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.961865"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.949996"
+        }
+      ],
+      "5.5": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.951458"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.940814"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.925317"
+        }
+      ],
+      "6.3": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.949874"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.929459"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.914527"
+        }
+      ],
+      "7.0": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.949181"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.928012"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.928945"
+        }
+      ],
+      "7.8": [
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.955356"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.438137"
+        }
+      ],
+      "8.5": [
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.952717"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.941308"
+        },
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.945383"
+        }
+      ],
+      "9.5": [
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.925117"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.938096"
+        },
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.886177"
+        }
+      ],
+      "10.5": [
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.915616"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.919063"
+        },
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.944878"
+        }
+      ],
+      "11.5": [
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.940005"
+        },
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.936469"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.940058"
+        }
+      ],
+      "12.5": [
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.932088"
+        },
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.925559"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.935408"
+        }
+      ],
+      "13.3": [
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.941929"
+        },
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.92433"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.90655"
+        }
+      ]
+    }
+  },
+  "colab_414_50": {
+    "cup": {
+      "absent_frame_count": 15,
+      "multiple_frame_count": 23,
+      "absent_frames": [
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "multiple_frames": [
+        42,
+        45,
+        48,
+        51,
+        55,
+        57,
+        175,
+        182,
+        188,
+        205,
+        206,
+        208,
+        209,
+        210,
+        215,
+        257,
+        265,
+        266,
+        267,
+        286,
+        287,
+        330,
+        336
+      ]
+    },
+    "mouse": {
+      "absent_frame_count": 20,
+      "multiple_frame_count": 12,
+      "absent_frames": [
+        152,
+        153,
+        154,
+        155,
+        235,
+        236,
+        237,
+        238,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338
+      ],
+      "multiple_frames": [
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233
+      ]
+    },
+    "remote": {
+      "absent_frame_count": 0,
+      "multiple_frame_count": 5,
+      "absent_frames": [],
+      "multiple_frames": [
+        327,
+        328,
+        333,
+        334,
+        337
+      ]
+    },
+    "samples": {
+      "0": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.966388"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.926707"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.864053"
+        }
+      ],
+      "1.0": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.964165"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.924199"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.901503"
+        }
+      ],
+      "2.0": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.891346"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.92914"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.904384"
+        }
+      ],
+      "2.7": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.971068"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.934311"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.925958"
+        }
+      ],
+      "3.5": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.866518"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.924112"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.813124"
+        }
+      ],
+      "4.5": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.964966"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.924901"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.941764"
+        }
+      ],
+      "5.5": [
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.931184"
+        },
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.916915"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.912255"
+        }
+      ],
+      "6.3": [
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.923929"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.913418"
+        },
+        {
+          "class": "cup",
+          "track_id": "6",
+          "confidence": "0.894663"
+        }
+      ],
+      "7.0": [
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.923477"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.906813"
+        },
+        {
+          "class": "cup",
+          "track_id": "6",
+          "confidence": "0.292825"
+        },
+        {
+          "class": "cup",
+          "track_id": "1",
+          "confidence": "0.796082"
+        }
+      ],
+      "7.8": [
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.93252"
+        },
+        {
+          "class": "mouse",
+          "track_id": "3",
+          "confidence": "0.664489"
+        }
+      ],
+      "8.5": [
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.914267"
+        },
+        {
+          "class": "cup",
+          "track_id": "3",
+          "confidence": "0.760487"
+        },
+        {
+          "class": "mouse",
+          "track_id": "13",
+          "confidence": "0.890837"
+        }
+      ],
+      "9.5": [
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.912465"
+        },
+        {
+          "class": "mouse",
+          "track_id": "13",
+          "confidence": "0.914509"
+        },
+        {
+          "class": "cup",
+          "track_id": "3",
+          "confidence": "0.881553"
+        }
+      ],
+      "10.5": [
+        {
+          "class": "remote",
+          "track_id": "2",
+          "confidence": "0.910977"
+        },
+        {
+          "class": "mouse",
+          "track_id": "13",
+          "confidence": "0.92466"
+        },
+        {
+          "class": "cup",
+          "track_id": "3",
+          "confidence": "0.948874"
+        }
+      ],
+      "11.5": [
+        {
+          "class": "cup",
+          "track_id": "3",
+          "confidence": "0.873978"
+        },
+        {
+          "class": "remote",
+          "track_id": "13",
+          "confidence": "0.909926"
+        },
+        {
+          "class": "mouse",
+          "track_id": "25",
+          "confidence": "0.918599"
+        }
+      ],
+      "12.5": [
+        {
+          "class": "cup",
+          "track_id": "3",
+          "confidence": "0.886904"
+        },
+        {
+          "class": "remote",
+          "track_id": "13",
+          "confidence": "0.91954"
+        },
+        {
+          "class": "mouse",
+          "track_id": "25",
+          "confidence": "0.874562"
+        }
+      ],
+      "13.3": [
+        {
+          "class": "cup",
+          "track_id": "3",
+          "confidence": "0.943186"
+        },
+        {
+          "class": "remote",
+          "track_id": "13",
+          "confidence": "0.912377"
+        },
+        {
+          "class": "mouse",
+          "track_id": "25",
+          "confidence": "0.858007"
+        }
+      ]
+    }
+  }
+}

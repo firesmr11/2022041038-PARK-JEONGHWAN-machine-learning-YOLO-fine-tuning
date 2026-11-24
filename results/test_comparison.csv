@@ -1,0 +1,13 @@
+﻿environment,train_images,epochs,Precision_percent,Recall_percent,mAP50_percent,mAP50_95_percent,source_precision
+Local RTX 4060,196,25,98.6942210702959,100.0,99.5,95.80767195767197,original_csv
+Local RTX 4060,196,50,99.13797137950894,100.0,99.5,97.97222222222223,original_csv
+Local RTX 4060,196,75,99.25040420839582,100.0,99.5,98.73333333333333,original_csv
+Local RTX 4060,414,25,97.29104935262055,97.02565247906155,99.5,97.63333333333335,original_csv
+Local RTX 4060,414,50,99.30174464318608,100.0,99.5,97.80277777777778,original_csv
+Local RTX 4060,414,75,99.27970889559302,100.0,99.5,96.94444444444447,original_csv
+Colab T4,196,25,99.26,100,99.5,96.94,user_table_rounded_2dp
+Colab T4,196,50,98.82,100,99.5,96.26,user_table_rounded_2dp
+Colab T4,196,75,97.78,100,99.5,98.34,user_table_rounded_2dp
+Colab T4,414,25,99.34,100,99.5,98.17,user_table_rounded_2dp
+Colab T4,414,50,99.18,100,99.5,98.5,user_table_rounded_2dp
+Colab T4,414,75,99.31,100,99.5,98.31,user_table_rounded_2dp

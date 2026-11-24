@@ -1,0 +1,62 @@
+[
+  {
+    "file": "colab_414_50_2x.mp4",
+    "fully_decoded_frames": 403,
+    "fps": 60.0,
+    "duration": 6.716666666666667,
+    "dimensions": [
+      1080,
+      1920
+    ]
+  },
+  {
+    "file": "colab_414_50_full.mp4",
+    "fully_decoded_frames": 403,
+    "fps": 30.0,
+    "duration": 13.433333333333334,
+    "dimensions": [
+      1080,
+      1920
+    ]
+  },
+  {
+    "file": "comparison_2x.mp4",
+    "fully_decoded_frames": 403,
+    "fps": 60.0,
+    "duration": 6.716666666666667,
+    "dimensions": [
+      1080,
+      1050
+    ]
+  },
+  {
+    "file": "comparison_full.mp4",
+    "fully_decoded_frames": 403,
+    "fps": 30.0,
+    "duration": 13.433333333333334,
+    "dimensions": [
+      1080,
+      1050
+    ]
+  },
+  {
+    "file": "local_196_75_2x.mp4",
+    "fully_decoded_frames": 403,
+    "fps": 60.0,
+    "duration": 6.716666666666667,
+    "dimensions": [
+      1080,
+      1920
+    ]
+  },
+  {
+    "file": "local_196_75_full.mp4",
+    "fully_decoded_frames": 403,
+    "fps": 30.0,
+    "duration": 13.433333333333334,
+    "dimensions": [
+      1080,
+      1920
+    ]
+  }
+]

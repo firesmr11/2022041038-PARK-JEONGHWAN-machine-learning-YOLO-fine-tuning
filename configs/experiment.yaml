@@ -1,0 +1,34 @@
+model: yolov8n.pt
+classes: [cup, mouse, remote]
+training:
+  epochs: [25, 50, 75]
+  imgsz: 640
+  batch: 16
+  seed: 0
+  deterministic: true
+  workers: 2
+  optimizer: auto
+  patience: 0
+  amp: true
+dataset_versions:
+  v1: {train: 196, val: 39, test: 19}
+  v2: {train: 414, val: 39, test: 19}
+evaluation:
+  checkpoint: best.pt
+  split: test
+  imgsz: 640
+  batch: 16
+video:
+  tracker: bytetrack.yaml
+  imgsz: 640
+  conf: 0.25
+  iou: 0.7
+  device_for_recorded_comparison: cpu
+  precision: FP32
+  frame_stride: 1
+  playback_speed: 2.0
+  trim: false
+notes:
+  - This is the intended common configuration, not a claim that every original run had identical args.
+  - The initial Colab 196-image 50-epoch run used patience 15 and completed all 50 epochs.
+  - Check Roboflow version preprocessing and archived per-run args before claiming strict control.
