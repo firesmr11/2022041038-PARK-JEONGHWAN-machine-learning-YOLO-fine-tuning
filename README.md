@@ -3,7 +3,7 @@
 직접 촬영한 3개 클래스 데이터로 YOLOv8n을 학습하고, 데이터 수·학습 횟수·실행 환경에 따른 변화를 비교한 기계학습 과제이다.
 196장/414장 × 25/50/75에포크 × Colab T4/로컬 RTX 4060의 **12개 실험**을 동일한 테스트 19장·26객체로 평가하였다.
 
-**공개 GitHub 주소: 공개 저장소 생성 후 이 위치에 실제 주소 입력.** 제출 파일은 로컬 Git에 기록하였으며 GitHub 공개·업로드는 아직 하지 않았다.
+**공개 GitHub 저장소:** [firesmr11/2022041038-PARK-JEONGHWAN-machine-learning-YOLO-fine-tuning](https://github.com/firesmr11/2022041038-PARK-JEONGHWAN-machine-learning-YOLO-fine-tuning)
 
 ## 결과와 최종 모델
 
@@ -137,7 +137,7 @@ python -m unittest discover -s tests -v
 
 [보고서 1.3~9장](docs/report_1_3_to_9.txt)은 기존 1.1·1.2 뒤에 옮길 본문이다.
 에포크·데이터 수·환경 비교, 작은 테스트셋의 한계, 오검출 및 ID 변화, 패키지 호환성과 Colab 세션 복원 경험을 포함한다.
-최종 HWP/PDF는 별도로 완성해야 하며, 공개 GitHub 주소는 업로드 후 실제 주소로 바꾸어야 한다.
+최종 HWP/PDF는 별도로 완성해야 하며, 보고서에는 위 공개 GitHub 주소를 기재한다.
 
 ## 참고 및 사용한 구성 요소
 
